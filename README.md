@@ -1,7 +1,7 @@
 # DPred: Identifying RNA dihydrouridine (D) modification sites based on multiple sequence-derived features 
 Dihydrouridine is a conserved modification of tRNA among all three life domains. D modification enhances the flexibility of a single nucleotide base in spatial structure and is disease- and evolution-associated. Recent studies have also suggested the presence of dihydrouridine on mRNA. To identify D in epitranscirptome, we provided a prediction framework named “Dpred” based on machine learning approach. The optimal features were evaluated by F score and different features integration; our model achieved AUROC scores 0.933 and 0.912 for E. coli and S. pombe, respectively. The performances of different machine learning algorithms were also compared in this study. 
 
-##Example for traning model of S.pombe D sites prediction
+##Example for traning model of S.pombe D sites prediction<br/>
 library(BSgenome)
 library(dplyr)
 library(e1071)
