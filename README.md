@@ -25,9 +25,9 @@ S_order_ChemicalProper <- readRDS("/F1_order/S_order_ChemicalProper.rds")<br/>
 S_order_PseKNC <- readRDS("/F1_order/S_order_PseKNC.rds")<br/>
 
 ##feature encoding<br/>
-source("/method/composition.R")<br/>
-source("/method/PseKNC.R")<br/>
-source("/method/ChemicialProperty.R")<br/>
+source("/methods/composition.R")<br/>
+source("/methods/PseKNC.R")<br/>
+source("/methods/ChemicialProperty.R")<br/>
 Ndata_F1 <- list()<br/>
 Pdata_F1 <- list()<br/>
 Pdata_F1[[1]] <- composition(Pdata1)[,S_order_COMPOSI]<br/>
